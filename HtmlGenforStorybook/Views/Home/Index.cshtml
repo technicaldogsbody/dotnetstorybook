@@ -1,0 +1,13 @@
+﻿@model (HeaderViewModel Header, FooterViewModel Footer)
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<partial name="Header" model="Model.Header"/>
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<partial name="Footer" model="Model.Footer"/>
